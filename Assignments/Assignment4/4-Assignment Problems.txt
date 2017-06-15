@@ -1,0 +1,37 @@
+I. Implement an alert to add bins and locations
+add a function showAddEntityAlertView(entityType:EntityType, actionType:ActionType)  
+show a UIAlertController and add a text field and addTextField
+add a UIAlertAction by calling addAction()
+for the handler implement a block that takes the text field value textFields![0] and adds to bin/location array
+Also update the current value for bin/location when a new one is added in the alert
+present the alert
+Call showAddEntityAlertView from the Add button tap handlers
+
+II. Add a UITableViewController to the storyboard and extend with a swift class
+Create a UITableViewController for listing the items
+Add an array called entityArray to hold the data for the TableViewController
+Implement the protocol functions including numberOfSections, numberOfRowsInSection, cellForRowAt
+Wire in the storyboard prototype cell as a subtitle cell and set the reuse identifier
+Implement the cellForRowAt function using dequeueReusableCell
+Set the cell.textLabel?.text and  cell.detailTextLabel?.text using item.name and item.bin 
+Create a loadTableData function for adding sample rows to the entityArray 
+Call loadTableData from init()
+Encapsulate the TableViewController in a NavigationController so the title can be set
+Set the navigationBar.topItem?.title as "Item Search"
+Create a segue to the TableViewController from the AddItemViewController
+Add a search button in the navigation bar on the AddItemViewController
+Perform the Segue to the UITableViewController from the AddItemViewController when the Search button is clicked
+Add a unwindFromSearch unwind segue handler in the AddItemViewController
+Link the unwindFromSearch segue to TableViewController exit the in the storyboard
+performSegue to the unwindFromSearch segue when an item is selected  didSelectRowAt
+Populate the values from the item selected in the ItemAddViewController
+
+III. Implement Search
+Add a SearchController to the TableViewController - let searchController = UISearchController(searchResultsController: nil)
+Add a filteredEntityArray to hold the filtered items to display in the TableViewController
+Add the searchBar to the tableHeader: tableView.tableHeaderView = searchController.searchBar
+Bind the searchResultsUpdater and searchBar.delegate to self
+Extend the TableViewController to accommodate the protocols UISearchBarDelegate, UISearchResultsUpdating
+Add a function filterContentForSearchText(_ searchText: String, scope: String) to handle the changes to the bar and text
+Implement filterContentForSearchText by updating filteredEntityArray with only those items that match the criteria
+Setup the scope bar with searchBar.scopeButtonTitles
