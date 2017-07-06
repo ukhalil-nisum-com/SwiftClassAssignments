@@ -21,6 +21,9 @@
 		7E6FA2161F06740B008F207C /* CoreDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA2151F06740B008F207C /* CoreDataFetch.swift */; };
 		7E6FA2181F068D3A008F207C /* FetchUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA2171F068D3A008F207C /* FetchUtility.swift */; };
 		7EF10F231EF7E13700562A20 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF10F221EF7E13700562A20 /* SearchTableViewController.swift */; };
+		7EF7730A1F0E1CF100B64000 /* BackgroundDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF773091F0E1CF100B64000 /* BackgroundDataCoordinator.swift */; };
+		7EF7730C1F0E1D0C00B64000 /* CoreDataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7730B1F0E1D0C00B64000 /* CoreDataLoad.swift */; };
+		7EF7730E1F0E1D3700B64000 /* UrlDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7730D1F0E1D3700B64000 /* UrlDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		7E6FA2151F06740B008F207C /* CoreDataFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFetch.swift; sourceTree = "<group>"; };
 		7E6FA2171F068D3A008F207C /* FetchUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchUtility.swift; sourceTree = "<group>"; };
 		7EF10F221EF7E13700562A20 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		7EF773091F0E1CF100B64000 /* BackgroundDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundDataCoordinator.swift; sourceTree = "<group>"; };
+		7EF7730B1F0E1D0C00B64000 /* CoreDataLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataLoad.swift; sourceTree = "<group>"; };
+		7EF7730D1F0E1D3700B64000 /* UrlDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,9 @@
 				7E6FA2121F066C5D008F207C /* CoreDataExtension.swift */,
 				7E6FA2151F06740B008F207C /* CoreDataFetch.swift */,
 				7E6FA2171F068D3A008F207C /* FetchUtility.swift */,
+				7EF773091F0E1CF100B64000 /* BackgroundDataCoordinator.swift */,
+				7EF7730B1F0E1D0C00B64000 /* CoreDataLoad.swift */,
+				7EF7730D1F0E1D3700B64000 /* UrlDataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -307,11 +316,14 @@
 			files = (
 				7E5703021EEFCF4E0094E51C /* NameProtocol.swift in Sources */,
 				7E5702D41EEFAB0F0094E51C /* ViewController.swift in Sources */,
+				7EF7730A1F0E1CF100B64000 /* BackgroundDataCoordinator.swift in Sources */,
 				7EF10F231EF7E13700562A20 /* SearchTableViewController.swift in Sources */,
 				7E6FA2181F068D3A008F207C /* FetchUtility.swift in Sources */,
 				7E6FA2161F06740B008F207C /* CoreDataFetch.swift in Sources */,
+				7EF7730C1F0E1D0C00B64000 /* CoreDataLoad.swift in Sources */,
 				7E6FA2131F066C5D008F207C /* CoreDataExtension.swift in Sources */,
 				7E5702D21EEFAB0F0094E51C /* AppDelegate.swift in Sources */,
+				7EF7730E1F0E1D3700B64000 /* UrlDataService.swift in Sources */,
 				7E5703001EEFC0600094E51C /* AddViewController.swift in Sources */,
 				7E6FA2101F06677D008F207C /* Assgmnt5.xcdatamodeld in Sources */,
 			);

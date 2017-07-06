@@ -47,7 +47,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        navigationBar.topItem?.title = "Assignment 5"
+        navigationBar.topItem?.title = "Assignment 6"
         
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Search", style: .plain, target: self, action: #selector(searchHandler(sender:)))
         
@@ -70,18 +70,15 @@ class ViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegat
         super.viewWillAppear(true)
         pickerView.isHidden = true
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
     func searchHandler(sender: UIBarButtonItem) {
-        print("Search clicked!")
-        self.performSegue(withIdentifier: "SearchSegue", sender:self )
-        let searchView = self.storyboard?.instantiateViewController(withIdentifier: "SearchTableViewController") as? SearchTableViewController
-        
-        //Here we Push searchView
-//        self.navigationController?.pushViewController(searchView!, animated: true)
+        self.performSegue(withIdentifier: "searchSegue", sender: nil)
+
     }
     
     //Text filed delegate Method

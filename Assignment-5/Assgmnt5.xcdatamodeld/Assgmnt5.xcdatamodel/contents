@@ -9,7 +9,7 @@
         <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+    <entity name="Item" representedClassName="Item" parentEntity="EntityBase" syncable="YES" codeGenerationType="class">
         <attribute name="qty" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <relationship name="itemToBinFK" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bin" inverseName="binToItemFK" inverseEntity="Bin" syncable="YES"/>
     </entity>

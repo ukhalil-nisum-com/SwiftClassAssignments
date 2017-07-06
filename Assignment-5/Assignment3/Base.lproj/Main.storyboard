@@ -109,7 +109,7 @@
                         <outlet property="textFieldTwo" destination="l3b-cP-krn" id="B34-jG-pxc"/>
                         <outlet property="textFiledOne" destination="aYQ-Qy-0WU" id="hMd-X2-MzF"/>
                         <segue destination="5nM-XN-zsA" kind="presentation" identifier="addVC" id="ucR-zG-zUC"/>
-                        <segue destination="ere-TZ-PP0" kind="show" identifier="SearchSegue" id="zCP-Vq-5DY"/>
+                        <segue destination="ere-TZ-PP0" kind="show" identifier="searchSegue" id="xJn-sQ-zlT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
