@@ -20,6 +20,7 @@
 		7E6FA2131F066C5D008F207C /* CoreDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA2121F066C5D008F207C /* CoreDataExtension.swift */; };
 		7E6FA2161F06740B008F207C /* CoreDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA2151F06740B008F207C /* CoreDataFetch.swift */; };
 		7E6FA2181F068D3A008F207C /* FetchUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FA2171F068D3A008F207C /* FetchUtility.swift */; };
+		7EC23C621F0E3DBF00D266F1 /* mock-data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EC23C611F0E3DBF00D266F1 /* mock-data.json */; };
 		7EF10F231EF7E13700562A20 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF10F221EF7E13700562A20 /* SearchTableViewController.swift */; };
 		7EF7730A1F0E1CF100B64000 /* BackgroundDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF773091F0E1CF100B64000 /* BackgroundDataCoordinator.swift */; };
 		7EF7730C1F0E1D0C00B64000 /* CoreDataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF7730B1F0E1D0C00B64000 /* CoreDataLoad.swift */; };
@@ -63,6 +64,7 @@
 		7E6FA2121F066C5D008F207C /* CoreDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataExtension.swift; sourceTree = "<group>"; };
 		7E6FA2151F06740B008F207C /* CoreDataFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFetch.swift; sourceTree = "<group>"; };
 		7E6FA2171F068D3A008F207C /* FetchUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchUtility.swift; sourceTree = "<group>"; };
+		7EC23C611F0E3DBF00D266F1 /* mock-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "mock-data.json"; sourceTree = "<group>"; };
 		7EF10F221EF7E13700562A20 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		7EF773091F0E1CF100B64000 /* BackgroundDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundDataCoordinator.swift; sourceTree = "<group>"; };
 		7EF7730B1F0E1D0C00B64000 /* CoreDataLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataLoad.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				7E6FA20E1F06677D008F207C /* Assgmnt5.xcdatamodeld */,
+				7EC23C611F0E3DBF00D266F1 /* mock-data.json */,
 				7E5702D01EEFAB0F0094E51C /* Assignment3 */,
 				7E5702E51EEFAB0F0094E51C /* Assignment3Tests */,
 				7E5702F01EEFAB0F0094E51C /* Assignment3UITests */,
@@ -290,6 +293,7 @@
 				7E5702DC1EEFAB0F0094E51C /* LaunchScreen.storyboard in Resources */,
 				7E5702D91EEFAB0F0094E51C /* Assets.xcassets in Resources */,
 				7E5702D71EEFAB0F0094E51C /* Main.storyboard in Resources */,
+				7EC23C621F0E3DBF00D266F1 /* mock-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +462,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

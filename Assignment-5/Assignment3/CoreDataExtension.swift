@@ -50,4 +50,8 @@ extension EntityBase    {
             }
         }
     }
+    
+    static func entityTypeToString(entityType:EntityType) -> String   {
+        return String(describing:entityType)
+    }
 }
